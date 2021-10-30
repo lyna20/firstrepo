@@ -1,0 +1,66 @@
+*{margin: 0;
+    padding: 0;}
+
+    img{
+        border: red 1px solid;
+    }
+
+    h1{ 
+        background-color: black;
+    }
+
+    h1,h2{
+        color: gray;
+    }
+
+    .s h2{
+        -webkit-text-stroke: 1px green;
+    }
+
+    #mon > span{
+        color: pink;
+    }
+
+    #mon div{
+        -webkit-text-stroke: 1px red;
+    }
+    #mon > div{
+        -webkit-text-stroke: 1px yellow;
+    }
+
+    #wed h2:hover{
+        color:green;
+    }
+
+    #mon  h2:hover , #tue  h2:hover{
+        color:red;
+    }
+
+
+    li:first-of-type{
+        font-weight: bold; 
+
+    }
+    li:first-of-type + li{
+        color:red; 
+
+    }
+
+    #tue  span:first-of-type{
+        color:blue;
+    }
+
+    #tue div:first-of-type + span{
+        font-size: 200%;
+    }
+
+    
+    li:nth-of-type(9){
+        color: blue;
+
+    }
+    li:nth-of-type(5n+3){
+        color: green;
+    }
+
+
